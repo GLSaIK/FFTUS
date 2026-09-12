@@ -1,0 +1,80 @@
+{
+  "mod_elements": [
+    {
+      "name": "TemplarArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "templar_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fft_untold_story/items/templar_armor_leggings.json",
+          "src/main/java/net/saik/fftuntoldstory/item/TemplarArmorItem.java",
+          "src/main/resources/assets/fft_untold_story/equipment/templar_armor.json",
+          "src/main/resources/assets/fft_untold_story/items/templar_armor_boots.json",
+          "src/main/java/net/saik/fftuntoldstory/client/renderer/item/TemplarArmorArmor.java",
+          "src/main/resources/assets/fft_untold_story/items/templar_armor_helmet.json",
+          "src/main/resources/assets/fft_untold_story/models/item/templar_armor_helmet.json",
+          "src/main/resources/assets/fft_untold_story/items/templar_armor_chestplate.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:TemplarArmor.helmet"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.fft_untold_story.templar_armor_helmet": "Шлем Templar Armor"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/saik/fftuntoldstory/init/FftUntoldStoryModItems.java",
+      "src/main/java/net/saik/fftuntoldstory/mixin/ItemInHandRendererMixin.java",
+      "src/main/java/net/saik/fftuntoldstory/mixin/LevelRendererMixin.java",
+      "src/main/java/net/saik/fftuntoldstory/network/PlayPlayerAnimationMessage.java",
+      "src/main/java/net/saik/fftuntoldstory/init/FftUntoldStoryModRenderStateModifiers.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/saik/fftuntoldstory/mixin/CameraAccessor.java",
+      "src/main/java/net/saik/fftuntoldstory/mixin/LivingEntityRendererMixin.java",
+      "src/main/java/net/saik/fftuntoldstory/init/FftUntoldStoryModModels.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/saik/fftuntoldstory/FftUntoldStoryMod.java",
+      "src/main/java/net/saik/fftuntoldstory/mixin/EntityRenderDispatcherMixin.java",
+      "src/main/resources/fft_untold_story.mixins.json",
+      "src/main/java/net/saik/fftuntoldstory/mixin/PlayerAnimationMixin.java",
+      "src/main/java/net/saik/fftuntoldstory/client/ItemArms.java",
+      "src/main/java/net/saik/fftuntoldstory/FftUntoldStoryModPlayerAnimationAPI.java",
+      "src/main/java/net/saik/fftuntoldstory/init/FftUntoldStoryModTabs.java",
+      "src/main/java/net/saik/fftuntoldstory/mixin/ItemInHandLayerMixin.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/saik/fftuntoldstory/mixin/PlayerAnimationRendererMixin.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "fft_untold_story",
+    "modName": "FFT: Untold story",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.8",
+    "modElementsPackage": "net.saik.fftuntoldstory"
+  },
+  "mcreatorVersion": 202500345720
+}

@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "fft_untold_story:templar_armor"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "fft_untold_story:templar_armor"
+      }
+    ]
+  }
+}
