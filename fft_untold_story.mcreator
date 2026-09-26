@@ -9,13 +9,68 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fft_untold_story/items/templar_armor_leggings.json",
+          "src/main/resources/assets/fft_untold_story/models/item/templar_armor_leggings.json",
           "src/main/java/net/saik/fftuntoldstory/item/TemplarArmorItem.java",
           "src/main/resources/assets/fft_untold_story/equipment/templar_armor.json",
           "src/main/resources/assets/fft_untold_story/items/templar_armor_boots.json",
           "src/main/java/net/saik/fftuntoldstory/client/renderer/item/TemplarArmorArmor.java",
           "src/main/resources/assets/fft_untold_story/items/templar_armor_helmet.json",
           "src/main/resources/assets/fft_untold_story/models/item/templar_armor_helmet.json",
+          "src/main/resources/assets/fft_untold_story/models/item/templar_armor_boots.json",
+          "src/main/resources/assets/fft_untold_story/models/item/templar_armor_chestplate.json",
           "src/main/resources/assets/fft_untold_story/items/templar_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "FFTUntoldStory",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fft_untold_story",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "TemplarSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "templar_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/saik/fftuntoldstory/item/TemplarSwordItem.java",
+          "src/main/resources/assets/fft_untold_story/items/templar_sword.json",
+          "src/main/resources/assets/fft_untold_story/models/item/templar_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "TemplarSwordCraftBase",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "templar_sword_craft_base",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fft_untold_story/advancement/recipes/templar_sword_craft_base.json",
+          "src/main/resources/data/fft_untold_story/recipe/templar_sword_craft_base.json"
+        ]
+      }
+    },
+    {
+      "name": "TemplarShield",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "templar_shield",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fft_untold_story/models/item/templar_shield_blocking.json",
+          "src/main/resources/assets/fft_untold_story/items/templar_shield.json",
+          "src/main/java/net/saik/fftuntoldstory/item/TemplarShieldItem.java",
+          "src/main/resources/assets/fft_untold_story/models/item/templar_shield.json"
         ]
       }
     }
@@ -25,16 +80,42 @@
   "tag_elements": {
     "ITEMS:minecraft:head_armor": [
       "~CUSTOM:TemplarArmor.helmet"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:TemplarArmor.body"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:TemplarArmor.legs"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:TemplarArmor.boots"
+    ],
+    "ITEMS:fft_untold_story:templar_armor_repair_items": [
+      "~Blocks.CHAIN"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:TemplarSword"
+    ],
+    "ITEMS:fft_untold_story:templar_sword_repair_items": [
+      "~Items.IRON_INGOT",
+      "~Items.GOLD_INGOT"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.fft_untold_story.templar_armor_helmet": "Шлем Templar Armor"
+      "item.fft_untold_story.templar_armor_helmet": "Шлем Templar Armor",
+      "item.fft_untold_story.templar_armor_chestplate": "Нагрудник Templar Armor",
+      "item.fft_untold_story.templar_armor_leggings": "Поножи Templar Armor",
+      "item.fft_untold_story.templar_armor_boots": "Ботинки Templar Armor",
+      "item_group.fft_untold_story.fft_untold_story": "FFT: Untold Story",
+      "item.fft_untold_story.templar_sword": "Меч тамплиера",
+      "item.fft_untold_story.templar_shield": "Templar Shield"
     }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/saik/fftuntoldstory/init/FftUntoldStoryModBrewingRecipes.java",
       "src/main/java/net/saik/fftuntoldstory/init/FftUntoldStoryModItems.java",
       "src/main/java/net/saik/fftuntoldstory/mixin/ItemInHandRendererMixin.java",
       "src/main/java/net/saik/fftuntoldstory/mixin/LevelRendererMixin.java",
@@ -68,12 +149,15 @@
     "author": "MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Not specified",
-    "serverSideOnly": false,
+    "serverSideOnly": true,
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "jei"
+    ],
     "currentGenerator": "neoforge-1.21.8",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.saik.fftuntoldstory"
   },
   "mcreatorVersion": 202500345720

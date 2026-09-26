@@ -1,0 +1,7 @@
+{
+  "parent": "fft_untold_story:custom/templarshield",
+  "textures": {
+    "0": "fft_untold_story:block/templashield",
+    "particle": "minecraft:item/acacia_door"
+  }
+}

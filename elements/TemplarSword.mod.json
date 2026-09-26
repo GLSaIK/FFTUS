@@ -1,0 +1,43 @@
+{
+  "_fv": 79,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "minecraft:golden_sword",
+    "customModelName": "templarsword:default",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Меч тамплиера",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:FFTUntoldStory"
+      }
+    ],
+    "efficiency": 6.0,
+    "attackSpeed": 1.7,
+    "enchantability": 16,
+    "damageVsEntity": 6.0,
+    "usageCount": 723,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "Items.GOLD_INGOT"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

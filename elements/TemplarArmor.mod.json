@@ -3,16 +3,16 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "templarhelmet",
-    "enableBody": false,
-    "textureBody": "",
-    "enableLeggings": false,
-    "textureLeggings": "",
-    "enableBoots": false,
-    "textureBoots": "",
+    "textureHelmet": "templarfull",
+    "enableBody": true,
+    "textureBody": "templarfull",
+    "enableLeggings": true,
+    "textureLeggings": "templarfull",
+    "enableBoots": true,
+    "textureBoots": "templarfull",
     "creativeTabs": [
       {
-        "value": "COMBAT"
+        "value": "CUSTOM:FFTUntoldStory"
       }
     ],
     "armorTextureFile": "nothing",
@@ -34,20 +34,20 @@
     },
     "helmetModelName": "ModelTemplarHelmet",
     "helmetModelPart": "TemplarHelmet",
-    "helmetModelTexture": "templarhelmet.png",
-    "bodyModelName": "Default",
-    "bodyModelPart": "Body",
-    "armsModelPartL": "Arms L",
-    "armsModelPartR": "Arms R",
-    "bodyModelTexture": "From armor",
-    "leggingsModelName": "Default",
-    "leggingsModelPartL": "Leggings L",
-    "leggingsModelPartR": "Leggings R",
-    "leggingsModelTexture": "From armor",
-    "bootsModelName": "Default",
-    "bootsModelPartL": "Boots L",
-    "bootsModelPartR": "Boots R",
-    "bootsModelTexture": "From armor",
+    "helmetModelTexture": "templarfull.png",
+    "bodyModelName": "ModelTemplarTorso",
+    "bodyModelPart": "TemplarTorso",
+    "armsModelPartL": "leftArm2",
+    "armsModelPartR": "rightArm2",
+    "bodyModelTexture": "templarfull.png",
+    "leggingsModelName": "ModelTemplarLeggs",
+    "leggingsModelPartL": "LeftLeg2",
+    "leggingsModelPartR": "RightLeg2",
+    "leggingsModelTexture": "templarfull.png",
+    "bootsModelName": "ModelTemplarBoot",
+    "bootsModelPartL": "leftBoot",
+    "bootsModelPartR": "rightBoot",
+    "bootsModelTexture": "templarfull.png",
     "helmetItemRenderType": 0,
     "helmetItemCustomModelName": "Normal",
     "bodyItemRenderType": 0,
@@ -85,16 +85,20 @@
       "fixedValue": false
     },
     "maxDamage": 15,
-    "damageValueHelmet": 2,
-    "damageValueBody": 6,
+    "damageValueHelmet": 3,
+    "damageValueBody": 5,
     "damageValueLeggings": 5,
-    "damageValueBoots": 2,
-    "enchantability": 9,
+    "damageValueBoots": 1,
+    "enchantability": 11,
     "toughness": 0.0,
     "knockbackResistance": 0.0,
     "equipSound": {
-      "value": ""
+      "value": "item.armor.equip_chain"
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "Blocks.CHAIN"
+      }
+    ]
   }
 }

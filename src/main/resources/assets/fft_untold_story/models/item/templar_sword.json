@@ -1,0 +1,7 @@
+{
+  "parent": "fft_untold_story:custom/templarsword",
+  "textures": {
+    "0": "fft_untold_story:block/templarsword",
+    "particle": "minecraft:item/golden_sword"
+  }
+}

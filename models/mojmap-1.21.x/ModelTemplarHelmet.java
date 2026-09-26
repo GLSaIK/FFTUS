@@ -18,24 +18,25 @@ public class ModelTemplarHelmet<T extends Entity> extends EntityModel<T> {
 		PartDefinition partdefinition = meshdefinition.getRoot();
 
 		PartDefinition TemplarHelmet = partdefinition.addOrReplaceChild("TemplarHelmet",
-				CubeListBuilder.create().texOffs(0, 0)
-						.addBox(-4.5F, -10.5F, -4.5F, 9.0F, 5.0F, 9.0F, new CubeDeformation(0.0F)).texOffs(20, 28)
-						.addBox(3.5F, -5.5F, -4.5F, 1.0F, 1.0F, 9.0F, new CubeDeformation(0.0F)).texOffs(36, 0)
-						.addBox(-3.5F, -5.75F, 1.45F, 7.0F, 6.0F, 3.0F, new CubeDeformation(0.0F)).texOffs(0, 28)
+				CubeListBuilder.create().texOffs(64, 15)
+						.addBox(-4.5F, -10.5F, -4.5F, 9.0F, 5.0F, 9.0F, new CubeDeformation(0.0F)).texOffs(93, 6)
+						.addBox(-4.05F, -6.75F, -4.4F, 8.0F, 7.0F, 0.0F, new CubeDeformation(0.0F)).texOffs(84, 43)
+						.addBox(3.5F, -5.5F, -4.5F, 1.0F, 1.0F, 9.0F, new CubeDeformation(0.0F)).texOffs(100, 15)
+						.addBox(-3.5F, -5.75F, 1.45F, 7.0F, 6.0F, 3.0F, new CubeDeformation(0.0F)).texOffs(64, 43)
 						.addBox(-4.5F, -5.5F, -4.5F, 1.0F, 1.0F, 9.0F, new CubeDeformation(0.0F)),
 				PartPose.offset(0.0F, 0.0F, 0.0F));
 
 		PartDefinition cube_r1 = TemplarHelmet.addOrReplaceChild("cube_r1",
-				CubeListBuilder.create().texOffs(26, 14).addBox(-2.5F, -2.5F, -5.0F, 4.0F, 5.0F, 9.0F,
+				CubeListBuilder.create().texOffs(90, 29).addBox(-2.5F, -2.5F, -5.0F, 4.0F, 5.0F, 9.0F,
 						new CubeDeformation(0.0F)),
 				PartPose.offsetAndRotation(-2.25F, -2.25F, 0.5F, 0.0F, 0.0F, 0.0436F));
 
 		PartDefinition cube_r2 = TemplarHelmet.addOrReplaceChild("cube_r2",
-				CubeListBuilder.create().texOffs(0, 14).addBox(-1.5F, -2.5F, -5.0F, 4.0F, 5.0F, 9.0F,
+				CubeListBuilder.create().texOffs(64, 29).addBox(-1.5F, -2.5F, -5.0F, 4.0F, 5.0F, 9.0F,
 						new CubeDeformation(0.0F)),
 				PartPose.offsetAndRotation(2.25F, -2.25F, 0.5F, 0.0F, 0.0F, -0.0436F));
 
-		return LayerDefinition.create(meshdefinition, 56, 56);
+		return LayerDefinition.create(meshdefinition, 128, 128);
 	}
 
 	@Override

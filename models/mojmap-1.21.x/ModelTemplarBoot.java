@@ -2,16 +2,16 @@
 // Exported for Minecraft version 1.17 or later with Mojang mappings
 // Paste this class into your mod and generate all required imports
 
-public class ModelTemplarArmorF<T extends Entity> extends EntityModel<T> {
+public class ModelTemplarBoot<T extends Entity> extends EntityModel<T> {
 	// This layer location should be baked with EntityRendererProvider.Context in
 	// the entity renderer and passed into this model's constructor
 	public static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(
-			new ResourceLocation("modid", "templararmorf"), "main");
+			new ResourceLocation("modid", "templarboot"), "main");
 	private final ModelPart TemplarBoots;
 	private final ModelPart leftBoot;
 	private final ModelPart rightBoot;
 
-	public ModelTemplarArmorF(ModelPart root) {
+	public ModelTemplarBoot(ModelPart root) {
 		this.TemplarBoots = root.getChild("TemplarBoots");
 		this.leftBoot = this.TemplarBoots.getChild("leftBoot");
 		this.rightBoot = this.TemplarBoots.getChild("rightBoot");
@@ -25,12 +25,12 @@ public class ModelTemplarArmorF<T extends Entity> extends EntityModel<T> {
 				PartPose.offset(0.0F, 24.0F, 0.0F));
 
 		PartDefinition leftBoot = TemplarBoots.addOrReplaceChild("leftBoot", CubeListBuilder.create().texOffs(0, 71)
-				.addBox(0.0F, -2.25F, -3.5F, 5.0F, 3.0F, 6.0F, new CubeDeformation(0.0F)),
-				PartPose.offset(-0.25F, 0.0F, 0.5F));
+				.addBox(-2.25F, 9.75F, -3.0F, 5.0F, 3.0F, 6.0F, new CubeDeformation(0.0F)),
+				PartPose.offset(2.0F, -12.0F, 0.0F));
 
 		PartDefinition rightBoot = TemplarBoots.addOrReplaceChild("rightBoot", CubeListBuilder.create().texOffs(0, 80)
-				.addBox(-4.75F, -2.25F, -3.0F, 5.0F, 3.0F, 6.0F, new CubeDeformation(0.0F)),
-				PartPose.offset(0.0F, 0.0F, 0.0F));
+				.addBox(-2.75F, 9.75F, -3.0F, 5.0F, 3.0F, 6.0F, new CubeDeformation(0.0F)),
+				PartPose.offset(-2.0F, -12.0F, 0.0F));
 
 		return LayerDefinition.create(meshdefinition, 128, 128);
 	}
