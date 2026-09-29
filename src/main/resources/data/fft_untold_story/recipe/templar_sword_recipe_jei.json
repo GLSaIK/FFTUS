@@ -1,0 +1,28 @@
+{
+  "type": "forgotten_fairy_tales:warrior_table_jei",
+  "ingredients": [
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "minecraft:iron_ingot",
+    "minecraft:gold_ingot",
+    "minecraft:iron_ingot",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "forgotten_fairy_tales:drop",
+    "minecraft:gold_ingot",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag"
+  ],
+  "outputs": [
+    {
+      "id": "fft_untold_story:templar_sword",
+      "count": 1,
+      "components": {
+      "minecraft:enchantments": {
+        "minecraft:smite": 2
+      },
+      "minecraft:enchantment_glint_override": false
+    }
+    }
+  ]
+}

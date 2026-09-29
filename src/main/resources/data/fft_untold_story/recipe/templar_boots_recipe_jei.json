@@ -1,0 +1,22 @@
+{
+  "type": "forgotten_fairy_tales:warrior_table_jei",
+  "ingredients": [
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "minecraft:chainmail_boots",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "minecraft:white_wool",
+    "minecraft:leather_boots",
+    "minecraft:white_wool",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag"
+  ],
+  "outputs": [
+    {
+      "id": "fft_untold_story:templar_armor_boots",
+      "count": 1
+    }
+  ]
+}

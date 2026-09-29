@@ -4,7 +4,7 @@
   "definition": {
     "name": "FFT: Untold Story",
     "icon": {
-      "value": "Blocks.REEDS"
+      "value": "CUSTOM:TemplarShield"
     },
     "showSearch": false
   }

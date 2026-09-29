@@ -1,0 +1,22 @@
+{
+  "type": "forgotten_fairy_tales:warrior_table_jei",
+  "ingredients": [
+    "forgotten_fairy_tales:iron_plate",
+    "minecraft:white_wool",
+    "forgotten_fairy_tales:iron_plate",
+    "forgotten_fairy_tales:iron_plate",
+    "minecraft:red_wool",
+    "forgotten_fairy_tales:iron_plate",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "forgotten_fairy_tales:iron_plate",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag"
+  ],
+  "outputs": [
+    {
+      "id": "fft_untold_story:templar_shield",
+      "count": 1
+    }
+  ]
+}

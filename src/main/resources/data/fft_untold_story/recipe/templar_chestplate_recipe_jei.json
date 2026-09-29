@@ -1,0 +1,22 @@
+{
+  "type": "forgotten_fairy_tales:warrior_table_jei",
+  "ingredients": [
+    "minecraft:iron_ingot",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "minecraft:iron_ingot",
+    "minecraft:white_banner",
+    "minecraft:chainmail_chestplate",
+    "minecraft:red_banner",
+    "minecraft:leather",
+    "minecraft:gold_nugget",
+    "minecraft:leather",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag"
+  ],
+  "outputs": [
+    {
+      "id": "fft_untold_story:templar_armor_chestplate",
+      "count": 1
+    }
+  ]
+}

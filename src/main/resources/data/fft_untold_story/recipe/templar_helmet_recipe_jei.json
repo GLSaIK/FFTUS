@@ -1,0 +1,22 @@
+{
+  "type": "forgotten_fairy_tales:warrior_table_jei",
+  "ingredients": [
+    "forgotten_fairy_tales:iron_plate",
+    "forgotten_fairy_tales:iron_plate",
+    "forgotten_fairy_tales:iron_plate",
+    "minecraft:iron_ingot",
+    "minecraft:iron_helmet",
+    "minecraft:iron_ingot",
+    "forgotten_fairy_tales:iron_plate",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "forgotten_fairy_tales:iron_plate",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag"
+  ],
+  "outputs": [
+    {
+      "id": "fft_untold_story:templar_armor_helmet",
+      "count": 1
+    }
+  ]
+}
