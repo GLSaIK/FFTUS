@@ -1,20 +1,14 @@
 {
   "required": true,
+  "minVersion": "0.8",
   "package": "net.saik.fftuntoldstory.mixin",
   "compatibilityLevel": "JAVA_21",
-  "mixins": [],
-  "client": [
-    "PlayerAnimationMixin",
-    "PlayerAnimationRendererMixin",
-    "ItemInHandLayerMixin",
-    "CameraAccessor",
-    "EntityRenderDispatcherMixin",
-    "LivingEntityRendererMixin",
-    "ItemInHandRendererMixin",
-    "LevelRendererMixin"
+
+  "mixins": [
+    "LocalPlayerMixinMixin"
   ],
+
   "injectors": {
     "defaultRequire": 1
-  },
-  "minVersion": "0.8.4"
+  }
 }

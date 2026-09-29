@@ -1,4 +1,3 @@
-
 {
   "type": "minecraft:crafting_shaped",
   "neoforge:conditions": [
@@ -12,24 +11,15 @@
   ],
   "category": "equipment",
   "pattern": [
-    "  a",
-    "ba ",
-    "cb "
+    "aaa",
+    "aba"
   ],
   "key": {
     "a": "minecraft:iron_ingot",
-    "b": "minecraft:gold_ingot",
-    "c": "minecraft:redstone"
+    "b": "minecraft:iron_nugget"
   },
   "result": {
-    "id": "fft_untold_story:templar_sword",
-    "count": 1,
-    "components": {
-      "minecraft:enchantments": {
-        "minecraft:smite": 2
-      },
-      "minecraft:enchantment_glint_override": false
-    }
+    "id": "fft_untold_story:templar_armor_helmet",
+    "count": 1
   }
 }
-

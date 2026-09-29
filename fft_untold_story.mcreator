@@ -9,16 +9,16 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/fft_untold_story/items/templar_armor_leggings.json",
-          "src/main/resources/assets/fft_untold_story/models/item/templar_armor_leggings.json",
-          "src/main/java/net/saik/fftuntoldstory/item/TemplarArmorItem.java",
-          "src/main/resources/assets/fft_untold_story/equipment/templar_armor.json",
-          "src/main/resources/assets/fft_untold_story/items/templar_armor_boots.json",
-          "src/main/java/net/saik/fftuntoldstory/client/renderer/item/TemplarArmorArmor.java",
-          "src/main/resources/assets/fft_untold_story/items/templar_armor_helmet.json",
-          "src/main/resources/assets/fft_untold_story/models/item/templar_armor_helmet.json",
-          "src/main/resources/assets/fft_untold_story/models/item/templar_armor_boots.json",
           "src/main/resources/assets/fft_untold_story/models/item/templar_armor_chestplate.json",
-          "src/main/resources/assets/fft_untold_story/items/templar_armor_chestplate.json"
+          "src/main/resources/assets/fft_untold_story/items/templar_armor_chestplate.json",
+          "src/main/java/net/saik/fftuntoldstory/client/renderer/item/TemplarArmorArmor.java",
+          "src/main/resources/assets/fft_untold_story/items/templar_armor_boots.json",
+          "src/main/resources/assets/fft_untold_story/equipment/templar_armor.json",
+          "src/main/resources/assets/fft_untold_story/items/templar_armor_helmet.json",
+          "src/main/resources/assets/fft_untold_story/models/item/templar_armor_boots.json",
+          "src/main/java/net/saik/fftuntoldstory/item/TemplarArmorItem.java",
+          "src/main/resources/assets/fft_untold_story/models/item/templar_armor_helmet.json",
+          "src/main/resources/assets/fft_untold_story/models/item/templar_armor_leggings.json"
         ]
       }
     },
@@ -67,10 +67,109 @@
       "registry_name": "templar_shield",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fft_untold_story/models/item/templar_shield_blocking.json",
-          "src/main/resources/assets/fft_untold_story/items/templar_shield.json",
           "src/main/java/net/saik/fftuntoldstory/item/TemplarShieldItem.java",
-          "src/main/resources/assets/fft_untold_story/models/item/templar_shield.json"
+          "src/main/resources/assets/fft_untold_story/models/item/templar_shield.json",
+          "src/main/resources/assets/fft_untold_story/items/templar_shield.json",
+          "src/main/resources/assets/fft_untold_story/models/item/templar_shield_blocking.json"
+        ]
+      }
+    },
+    {
+      "name": "CustomUseItem",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "custom_use_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/saik/fftuntoldstory/CustomUseItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TemplarShieldKazhdyiTikVInvientarie",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "templar_shield_kazhdyi_tik_v_invientarie",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ],
+        "files": [
+          "src/main/java/net/saik/fftuntoldstory/procedures/TemplarShieldKazhdyiTikVInvientarieProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "TemplarShieldCraftBase",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "templar_shield_craft_base",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fft_untold_story/recipe/templar_shield_craft_base.json",
+          "src/main/resources/data/fft_untold_story/advancement/recipes/templar_shield_craft_base.json"
+        ]
+      }
+    },
+    {
+      "name": "TemplarArmorHelmetCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "templar_armor_helmet_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fft_untold_story/recipe/templar_armor_helmet_craft.json",
+          "src/main/resources/data/fft_untold_story/advancement/recipes/templar_armor_helmet_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "TemplarArmorChestRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "templar_armor_chest_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fft_untold_story/advancement/recipes/templar_armor_chest_recipe.json",
+          "src/main/resources/data/fft_untold_story/recipe/templar_armor_chest_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TemplarArmorLegsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "templar_armor_legs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fft_untold_story/advancement/recipes/templar_armor_legs_recipe.json",
+          "src/main/resources/data/fft_untold_story/recipe/templar_armor_legs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TemplarArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "templar_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fft_untold_story/advancement/recipes/templar_armor_boots_recipe.json",
+          "src/main/resources/data/fft_untold_story/recipe/templar_armor_boots_recipe.json"
         ]
       }
     }
@@ -99,43 +198,45 @@
     "ITEMS:fft_untold_story:templar_sword_repair_items": [
       "~Items.IRON_INGOT",
       "~Items.GOLD_INGOT"
+    ],
+    "ITEMS:fft_untold_story:templar_shield_repair_items": [
+      "~Items.IRON_INGOT"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.fft_untold_story.templar_armor_helmet": "Шлем Templar Armor",
-      "item.fft_untold_story.templar_armor_chestplate": "Нагрудник Templar Armor",
-      "item.fft_untold_story.templar_armor_leggings": "Поножи Templar Armor",
-      "item.fft_untold_story.templar_armor_boots": "Ботинки Templar Armor",
+      "item.fft_untold_story.templar_armor_helmet": "Тамплиерский шлем",
+      "item.fft_untold_story.templar_armor_chestplate": "Тамплиерская кольчуга",
+      "item.fft_untold_story.templar_armor_leggings": "Тамплиерские кольчужные поножи",
+      "item.fft_untold_story.templar_armor_boots": "Тамплиерские кольчужные сапоги",
       "item_group.fft_untold_story.fft_untold_story": "FFT: Untold Story",
       "item.fft_untold_story.templar_sword": "Меч тамплиера",
-      "item.fft_untold_story.templar_shield": "Templar Shield"
+      "item.fft_untold_story.templar_shield": "Тамплиерский щит"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/saik/fftuntoldstory/init/FftUntoldStoryModBrewingRecipes.java",
       "src/main/java/net/saik/fftuntoldstory/init/FftUntoldStoryModItems.java",
-      "src/main/java/net/saik/fftuntoldstory/mixin/ItemInHandRendererMixin.java",
-      "src/main/java/net/saik/fftuntoldstory/mixin/LevelRendererMixin.java",
-      "src/main/java/net/saik/fftuntoldstory/network/PlayPlayerAnimationMessage.java",
-      "src/main/java/net/saik/fftuntoldstory/init/FftUntoldStoryModRenderStateModifiers.java",
-      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/saik/fftuntoldstory/mixin/PlayerAnimationMixin.java",
       "src/main/java/net/saik/fftuntoldstory/mixin/CameraAccessor.java",
+      "src/main/java/net/saik/fftuntoldstory/client/ItemArms.java",
       "src/main/java/net/saik/fftuntoldstory/mixin/LivingEntityRendererMixin.java",
-      "src/main/java/net/saik/fftuntoldstory/init/FftUntoldStoryModModels.java",
-      "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/java/net/saik/fftuntoldstory/FftUntoldStoryMod.java",
       "src/main/java/net/saik/fftuntoldstory/mixin/EntityRenderDispatcherMixin.java",
-      "src/main/resources/fft_untold_story.mixins.json",
-      "src/main/java/net/saik/fftuntoldstory/mixin/PlayerAnimationMixin.java",
-      "src/main/java/net/saik/fftuntoldstory/client/ItemArms.java",
+      "src/main/java/net/saik/fftuntoldstory/init/FftUntoldStoryModRenderStateModifiers.java",
+      "src/main/java/net/saik/fftuntoldstory/mixin/PlayerAnimationRendererMixin.java",
+      "src/main/java/net/saik/fftuntoldstory/init/FftUntoldStoryModModels.java",
+      "src/main/resources/pack.mcmeta",
       "src/main/java/net/saik/fftuntoldstory/FftUntoldStoryModPlayerAnimationAPI.java",
-      "src/main/java/net/saik/fftuntoldstory/init/FftUntoldStoryModTabs.java",
       "src/main/java/net/saik/fftuntoldstory/mixin/ItemInHandLayerMixin.java",
+      "src/main/java/net/saik/fftuntoldstory/mixin/LevelRendererMixin.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/net/saik/fftuntoldstory/mixin/PlayerAnimationRendererMixin.java"
+      "src/main/java/net/saik/fftuntoldstory/init/FftUntoldStoryModTabs.java",
+      "src/main/java/net/saik/fftuntoldstory/network/PlayPlayerAnimationMessage.java",
+      "src/main/java/net/saik/fftuntoldstory/mixin/ItemInHandRendererMixin.java",
+      "src/main/resources/META-INF/accesstransformer.cfg"
     ]
   },
   "foldersRoot": {
@@ -145,7 +246,7 @@
   "workspaceSettings": {
     "modid": "fft_untold_story",
     "modName": "FFT: Untold story",
-    "version": "1.0.0",
+    "version": "0.1.4",
     "author": "MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Not specified",

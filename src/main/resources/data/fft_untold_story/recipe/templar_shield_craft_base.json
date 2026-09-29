@@ -12,24 +12,17 @@
   ],
   "category": "equipment",
   "pattern": [
-    "  a",
-    "ba ",
-    "cb "
+    "aba",
+    "aca",
+    " a "
   ],
   "key": {
     "a": "minecraft:iron_ingot",
-    "b": "minecraft:gold_ingot",
-    "c": "minecraft:redstone"
+    "b": "minecraft:white_wool",
+    "c": "minecraft:red_wool"
   },
   "result": {
-    "id": "fft_untold_story:templar_sword",
-    "count": 1,
-    "components": {
-      "minecraft:enchantments": {
-        "minecraft:smite": 2
-      },
-      "minecraft:enchantment_glint_override": false
-    }
+    "id": "fft_untold_story:templar_shield",
+    "count": 1
   }
 }
-

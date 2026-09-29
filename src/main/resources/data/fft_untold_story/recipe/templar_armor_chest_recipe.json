@@ -1,4 +1,3 @@
-
 {
   "type": "minecraft:crafting_shaped",
   "neoforge:conditions": [
@@ -12,24 +11,20 @@
   ],
   "category": "equipment",
   "pattern": [
-    "  a",
-    "ba ",
-    "cb "
+    "a a",
+    "bcd",
+    "efe"
   ],
   "key": {
     "a": "minecraft:iron_ingot",
-    "b": "minecraft:gold_ingot",
-    "c": "minecraft:redstone"
+    "b": "minecraft:white_banner",
+    "c": "minecraft:chainmail_chestplate",
+    "d": "minecraft:red_banner",
+    "e": "minecraft:leather",
+    "f": "minecraft:gold_nugget"
   },
   "result": {
-    "id": "fft_untold_story:templar_sword",
-    "count": 1,
-    "components": {
-      "minecraft:enchantments": {
-        "minecraft:smite": 2
-      },
-      "minecraft:enchantment_glint_override": false
-    }
+    "id": "fft_untold_story:templar_armor_chestplate",
+    "count": 1
   }
 }
-

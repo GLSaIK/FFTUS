@@ -16,10 +16,10 @@
       }
     ],
     "armorTextureFile": "nothing",
-    "helmetName": "Шлем Templar Armor",
-    "bodyName": "Нагрудник Templar Armor",
-    "leggingsName": "Поножи Templar Armor",
-    "bootsName": "Ботинки Templar Armor",
+    "helmetName": "Тамплиерский шлем",
+    "bodyName": "Тамплиерская кольчуга",
+    "leggingsName": "Тамплиерские кольчужные поножи",
+    "bootsName": "Тамплиерские кольчужные сапоги",
     "helmetSpecialInformation": {
       "fixedValue": []
     },

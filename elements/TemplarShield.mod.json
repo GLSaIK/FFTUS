@@ -7,9 +7,9 @@
     "blockingRenderType": 1,
     "texture": "minecraft:acacia_door",
     "customModelName": "templarshield:default",
-    "blockingModelName": "templarshield:default",
+    "blockingModelName": "templarshield2:default",
     "guiTexture": "",
-    "name": "Templar Shield",
+    "name": "Тамплиерский щит",
     "specialInformation": {
       "fixedValue": []
     },
@@ -20,17 +20,24 @@
     ],
     "efficiency": 4.0,
     "attackSpeed": 1.0,
-    "enchantability": 1,
+    "enchantability": 14,
     "damageVsEntity": 4.0,
-    "usageCount": 100,
+    "usageCount": 453,
     "glowCondition": {
       "fixedValue": false
     },
-    "repairItems": [],
+    "repairItems": [
+      {
+        "value": "Items.IRON_INGOT"
+      }
+    ],
     "immuneToFire": false,
     "blockDropsTier": "WOOD",
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onItemInInventoryTick": {
+      "name": "TemplarShieldKazhdyiTikVInvientarie"
+    }
   }
 }

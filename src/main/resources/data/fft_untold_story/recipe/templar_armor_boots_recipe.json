@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:mod_loaded",
+        "modid": "forgotten_fairy_tales"
+      }
+    }
+  ],
+  "category": "equipment",
+  "pattern": [
+    " a ",
+    "bcb"
+  ],
+  "key": {
+    "a": "minecraft:chainmail_boots",
+    "b": "minecraft:white_wool",
+    "c": "minecraft:leather_boots"
+  },
+  "result": {
+    "id": "fft_untold_story:templar_armor_boots",
+    "count": 1
+  }
+}
