@@ -3,23 +3,23 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "templarfull",
+    "textureHelmet": "templarhelmet",
     "enableBody": true,
-    "textureBody": "templarfull",
+    "textureBody": "templarchesrplate",
     "enableLeggings": true,
-    "textureLeggings": "templarfull",
+    "textureLeggings": "templarleggings",
     "enableBoots": true,
-    "textureBoots": "templarfull",
+    "textureBoots": "templarboots",
     "creativeTabs": [
       {
         "value": "CUSTOM:FFTUntoldStory"
       }
     ],
     "armorTextureFile": "nothing",
-    "helmetName": "Тамплиерский шлем",
-    "bodyName": "Тамплиерская кольчуга",
-    "leggingsName": "Тамплиерские кольчужные поножи",
-    "bootsName": "Тамплиерские кольчужные сапоги",
+    "helmetName": "Templar helmet",
+    "bodyName": "Templar chainmail chestplate",
+    "leggingsName": "Templar chainmail leggings",
+    "bootsName": "Templar boots",
     "helmetSpecialInformation": {
       "fixedValue": []
     },

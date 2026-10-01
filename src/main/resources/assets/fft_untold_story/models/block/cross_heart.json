@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fft_untold_story:block/cross_heart_closed",
+    "particle": "fft_untold_story:block/cross_heart_closed"
+  },
+  "render_type": "solid"
+}

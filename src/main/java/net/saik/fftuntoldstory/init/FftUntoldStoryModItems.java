@@ -10,8 +10,11 @@ import net.saik.fftuntoldstory.FftUntoldStoryMod;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredItem;
+import net.neoforged.neoforge.registries.DeferredHolder;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.BlockItem;
 
 import java.util.function.Function;
 
@@ -23,6 +26,7 @@ public class FftUntoldStoryModItems {
 	public static final DeferredItem<Item> TEMPLAR_ARMOR_BOOTS;
 	public static final DeferredItem<Item> TEMPLAR_SWORD;
 	public static final DeferredItem<Item> TEMPLAR_SHIELD;
+	public static final DeferredItem<Item> CROSS_HEART;
 	static {
 		TEMPLAR_ARMOR_HELMET = register("templar_armor_helmet", TemplarArmorItem.Helmet::new);
 		TEMPLAR_ARMOR_CHESTPLATE = register("templar_armor_chestplate", TemplarArmorItem.Chestplate::new);
@@ -30,11 +34,20 @@ public class FftUntoldStoryModItems {
 		TEMPLAR_ARMOR_BOOTS = register("templar_armor_boots", TemplarArmorItem.Boots::new);
 		TEMPLAR_SWORD = register("templar_sword", TemplarSwordItem::new);
 		TEMPLAR_SHIELD = register("templar_shield", TemplarShieldItem::new);
+		CROSS_HEART = block(FftUntoldStoryModBlocks.CROSS_HEART, new Item.Properties().stacksTo(1));
 	}
 
 	// Start of user code block custom items
 	// End of user code block custom items
 	private static <I extends Item> DeferredItem<I> register(String name, Function<Item.Properties, ? extends I> supplier) {
 		return REGISTRY.registerItem(name, supplier, new Item.Properties());
+	}
+
+	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block) {
+		return block(block, new Item.Properties());
+	}
+
+	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block, Item.Properties properties) {
+		return REGISTRY.registerItem(block.getId().getPath(), prop -> new BlockItem(block.get(), prop), properties);
 	}
 }

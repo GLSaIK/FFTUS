@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:mod_loaded",
+        "modid": "forgotten_fairy_tales"
+      }
+    }
+  ],
+  "category": "building",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:gold_block",
+    "b": "minecraft:gold_ingot",
+    "c": "minecraft:redstone_block"
+  },
+  "result": {
+    "id": "fft_untold_story:cross_heart",
+    "count": 1
+  }
+}

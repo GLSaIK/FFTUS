@@ -5,6 +5,7 @@ import org.apache.logging.log4j.LogManager;
 
 import net.saik.fftuntoldstory.init.FftUntoldStoryModTabs;
 import net.saik.fftuntoldstory.init.FftUntoldStoryModItems;
+import net.saik.fftuntoldstory.init.FftUntoldStoryModBlocks;
 
 import net.neoforged.neoforge.network.registration.PayloadRegistrar;
 import net.neoforged.neoforge.network.handling.IPayloadHandler;
@@ -55,6 +56,7 @@ public class FftUntoldStoryMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+		FftUntoldStoryModBlocks.REGISTRY.register(modEventBus);
 		FftUntoldStoryModItems.REGISTRY.register(modEventBus);
 		FftUntoldStoryModTabs.REGISTRY.register(modEventBus);
 		// Start of user code block mod init

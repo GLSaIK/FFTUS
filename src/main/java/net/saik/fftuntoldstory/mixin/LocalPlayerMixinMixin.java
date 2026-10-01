@@ -3,7 +3,7 @@ package net.saik.fftuntoldstory.mixin;
 import net.minecraft.client.player.LocalPlayer;
 import net.minecraft.world.item.ItemStack;
 
-import net.saik.fftuntoldstory.client.CustomUseItem;
+import net.saik.fftuntoldstory.CustomUseItem;
 
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -14,7 +14,7 @@ import net.minecraft.world.phys.Vec2;
 @Mixin(LocalPlayer.class)
 public class LocalPlayerMixinMixin {
 
-    private static final float FFT_USE_SPEED_MULTIPLIER = 0.70F;
+    private static final float FFT_USE_SPEED_MULTIPLIER = 0.60F;
 
     @Redirect(
             method = "modifyInput",

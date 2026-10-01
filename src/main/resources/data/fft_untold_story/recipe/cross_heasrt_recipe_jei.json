@@ -1,0 +1,22 @@
+{
+  "type": "forgotten_fairy_tales:warrior_table_jei",
+  "ingredients": [
+    "minecraft:gold_block",
+    "minecraft:gold_ingot",
+    "minecraft:gold_block",
+    "minecraft:gold_ingot",
+    "forgotten_fairy_tales:drop",
+    "minecraft:gold_ingot",
+    "minecraft:gold_block",
+    "minecraft:gold_ingot",
+    "minecraft:gold_block",
+    "#forgotten_fairy_tales:jei_empty_tag",
+    "#forgotten_fairy_tales:jei_empty_tag"
+  ],
+  "outputs": [
+    {
+      "id": "fft_untold_story:cross_heart",
+      "count": 1
+    }
+  ]
+}

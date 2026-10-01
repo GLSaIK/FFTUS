@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "blockstate=0": {
+      "model": "fft_untold_story:block/cross_heart"
+    },
+    "blockstate=1": {
+      "model": "fft_untold_story:block/cross_heart_states_blockstate_0"
+    }
+  }
+}

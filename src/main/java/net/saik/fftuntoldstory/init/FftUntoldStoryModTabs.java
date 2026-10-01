@@ -23,5 +23,6 @@ public class FftUntoldStoryModTabs {
 				tabData.accept(FftUntoldStoryModItems.TEMPLAR_ARMOR_BOOTS.get());
 				tabData.accept(FftUntoldStoryModItems.TEMPLAR_SWORD.get());
 				tabData.accept(FftUntoldStoryModItems.TEMPLAR_SHIELD.get());
+				tabData.accept(FftUntoldStoryModBlocks.CROSS_HEART.get().asItem());
 			}).build());
 }

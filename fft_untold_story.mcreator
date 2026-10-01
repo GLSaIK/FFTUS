@@ -172,6 +172,78 @@
           "src/main/resources/data/fft_untold_story/recipe/templar_armor_boots_recipe.json"
         ]
       }
+    },
+    {
+      "name": "CrossHeart",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cross_heart",
+      "metadata": {
+        "files": [
+          "src/main/java/net/saik/fftuntoldstory/block/CrossHeartBlock.java",
+          "src/main/resources/assets/fft_untold_story/models/block/cross_heart.json",
+          "src/main/resources/assets/fft_untold_story/models/item/cross_heart.json",
+          "src/main/resources/data/fft_untold_story/loot_table/blocks/cross_heart.json",
+          "src/main/resources/assets/fft_untold_story/items/cross_heart.json",
+          "src/main/resources/assets/fft_untold_story/blockstates/cross_heart.json"
+        ]
+      }
+    },
+    {
+      "name": "CrossHeartStates",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cross_heart_states",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fft_untold_story/models/block/cross_heart_states_blockstate_0.json"
+        ]
+      }
+    },
+    {
+      "name": "CrossHeartPriObnovlieniiTika",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cross_heart_pri_obnovlienii_tika",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/saik/fftuntoldstory/procedures/CrossHeartPriObnovlieniiTikaProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "CrossHeartRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cross_heart_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fft_untold_story/advancement/recipes/cross_heart_recipe.json",
+          "src/main/resources/data/fft_untold_story/recipe/cross_heart_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -201,23 +273,38 @@
     ],
     "ITEMS:fft_untold_story:templar_shield_repair_items": [
       "~Items.IRON_INGOT"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:CrossHeart"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.fft_untold_story.templar_armor_helmet": "Тамплиерский шлем",
-      "item.fft_untold_story.templar_armor_chestplate": "Тамплиерская кольчуга",
-      "item.fft_untold_story.templar_armor_leggings": "Тамплиерские кольчужные поножи",
-      "item.fft_untold_story.templar_armor_boots": "Тамплиерские кольчужные сапоги",
+      "item.fft_untold_story.templar_armor_helmet": "Templar helmet",
+      "item.fft_untold_story.templar_armor_chestplate": "Templar chainmail chestplate",
+      "item.fft_untold_story.templar_armor_leggings": "Templar chainmail leggings",
+      "item.fft_untold_story.templar_armor_boots": "Templar boots",
       "item_group.fft_untold_story.fft_untold_story": "FFT: Untold Story",
-      "item.fft_untold_story.templar_sword": "Меч тамплиера",
-      "item.fft_untold_story.templar_shield": "Тамплиерский щит"
+      "item.fft_untold_story.templar_sword": "Templar sword",
+      "item.fft_untold_story.templar_shield": "Templar shield",
+      "item.fft_untold_story.cross_heart": "Cross center"
+    },
+    "ru_ru": {
+      "item.fft_untold_story.templar_armor_helmet": "Тамплиерский шлем",
+      "item.fft_untold_story.templar_armor_chestplate": "Тамплиерский кольчужный нагрудник",
+      "item.fft_untold_story.templar_armor_leggings": "Тамплиерскик кольчужные поножи",
+      "item.fft_untold_story.templar_armor_boots": "Тамплиерские ботинки",
+      "item_group.fft_untold_story.fft_untold_story": "FFT: Untold Story",
+      "item.fft_untold_story.templar_sword": "Тамплиерский меч",
+      "item.fft_untold_story.templar_shield": "Тамплиерский щит",
+      "item.fft_untold_story.cross_heart": "Центр креста"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/saik/fftuntoldstory/init/FftUntoldStoryModBrewingRecipes.java",
+      "src/main/java/net/saik/fftuntoldstory/init/FftUntoldStoryModBlocks.java",
       "src/main/java/net/saik/fftuntoldstory/init/FftUntoldStoryModItems.java",
       "src/main/java/net/saik/fftuntoldstory/mixin/PlayerAnimationMixin.java",
       "src/main/java/net/saik/fftuntoldstory/mixin/CameraAccessor.java",
@@ -246,8 +333,8 @@
   "workspaceSettings": {
     "modid": "fft_untold_story",
     "modName": "FFT: Untold story",
-    "version": "0.1.5",
-    "author": "MCreator",
+    "version": "0.1.7",
+    "author": "SaIK",
     "websiteURL": "https://mcreator.net",
     "license": "Not specified",
     "serverSideOnly": true,
