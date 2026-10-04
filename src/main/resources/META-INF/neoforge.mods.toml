@@ -12,8 +12,6 @@ authors="SaIK"
 displayTest="IGNORE_SERVER_VERSION"
 
 # Start of user code block mod configuration
-[[mixins]]
-config="fft_untold_story.mixins.json"
 # End of user code block mod configuration
 
 
@@ -21,26 +19,26 @@ config="fft_untold_story.mixins.json"
 # End of user code block custom mixins
 
 [[dependencies.fft_untold_story]]
-modId="neoforge"
-type="required"
-versionRange="[21.8.31,)"
-ordering="AFTER"
-side="BOTH"
+    modId="neoforge"
+    type="required"
+    versionRange="[21.8.31,)"
+    ordering="AFTER"
+    side="BOTH"
 
 [[dependencies.fft_untold_story]]
-modId="minecraft"
-type="required"
-versionRange="[1.21.8]"
-ordering="AFTER"
-side="BOTH"
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.8]"
+    ordering="AFTER"
+    side="BOTH"
 
 
 [[dependencies.fft_untold_story]]
-modId="jei"
-type="optional"
-versionRange="[0,)"
-ordering="NONE"
-side="BOTH"
+    modId="jei"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 
 # Start of user code block dependencies configuration
