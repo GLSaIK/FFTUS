@@ -1,0 +1,98 @@
+{
+  "_fv": 79,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 174,
+    "height": 134,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_choose_your_race",
+          "text": {
+            "fixedValue": "Choose your race"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "IsChosenRace"
+          },
+          "x": 168,
+          "y": 60,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_remain_human",
+          "text": "Remain Human",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "OptHuman"
+          },
+          "displayCondition": {
+            "name": "IsChosenRace"
+          },
+          "width": 87,
+          "height": 20,
+          "x": 167,
+          "y": 110,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_become_imp",
+          "text": "Become Imp",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "OptImp"
+          },
+          "displayCondition": {
+            "name": "IsChosenRace"
+          },
+          "width": 77,
+          "height": 20,
+          "x": 172,
+          "y": 139,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_become_birdman",
+          "text": "Become Bird-man",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "OptBirdman"
+          },
+          "displayCondition": {
+            "name": "IsChosenRace"
+          },
+          "width": 103,
+          "height": 20,
+          "x": 159,
+          "y": 82,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

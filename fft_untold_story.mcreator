@@ -20,7 +20,8 @@
           "src/main/resources/assets/fft_untold_story/models/item/templar_armor_helmet.json",
           "src/main/resources/assets/fft_untold_story/models/item/templar_armor_leggings.json"
         ]
-      }
+      },
+      "path": "~/templar"
     },
     {
       "name": "FFTUntoldStory",
@@ -30,7 +31,8 @@
       "registry_name": "fft_untold_story",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/templar"
     },
     {
       "name": "TemplarSword",
@@ -44,7 +46,8 @@
           "src/main/resources/assets/fft_untold_story/items/templar_sword.json",
           "src/main/resources/assets/fft_untold_story/models/item/templar_sword.json"
         ]
-      }
+      },
+      "path": "~/templar"
     },
     {
       "name": "TemplarSwordCraftBase",
@@ -57,7 +60,8 @@
           "src/main/resources/data/fft_untold_story/advancement/recipes/templar_sword_craft_base.json",
           "src/main/resources/data/fft_untold_story/recipe/templar_sword_craft_base.json"
         ]
-      }
+      },
+      "path": "~/templar"
     },
     {
       "name": "TemplarShield",
@@ -72,7 +76,8 @@
           "src/main/resources/assets/fft_untold_story/items/templar_shield.json",
           "src/main/resources/assets/fft_untold_story/models/item/templar_shield_blocking.json"
         ]
-      }
+      },
+      "path": "~/templar"
     },
     {
       "name": "CustomUseItem",
@@ -84,7 +89,8 @@
         "files": [
           "src/main/java/net/saik/fftuntoldstory/CustomUseItem.java"
         ]
-      }
+      },
+      "path": "~/templar"
     },
     {
       "name": "TemplarShieldKazhdyiTikVInvientarie",
@@ -106,7 +112,8 @@
         "files": [
           "src/main/java/net/saik/fftuntoldstory/procedures/TemplarShieldKazhdyiTikVInvientarieProcedure.java"
         ]
-      }
+      },
+      "path": "~/templar"
     },
     {
       "name": "TemplarShieldCraftBase",
@@ -119,7 +126,8 @@
           "src/main/resources/data/fft_untold_story/recipe/templar_shield_craft_base.json",
           "src/main/resources/data/fft_untold_story/advancement/recipes/templar_shield_craft_base.json"
         ]
-      }
+      },
+      "path": "~/templar"
     },
     {
       "name": "TemplarArmorHelmetCraft",
@@ -132,7 +140,8 @@
           "src/main/resources/data/fft_untold_story/recipe/templar_armor_helmet_craft.json",
           "src/main/resources/data/fft_untold_story/advancement/recipes/templar_armor_helmet_craft.json"
         ]
-      }
+      },
+      "path": "~/templar"
     },
     {
       "name": "TemplarArmorChestRecipe",
@@ -145,7 +154,8 @@
           "src/main/resources/data/fft_untold_story/advancement/recipes/templar_armor_chest_recipe.json",
           "src/main/resources/data/fft_untold_story/recipe/templar_armor_chest_recipe.json"
         ]
-      }
+      },
+      "path": "~/templar"
     },
     {
       "name": "TemplarArmorLegsRecipe",
@@ -158,7 +168,8 @@
           "src/main/resources/data/fft_untold_story/advancement/recipes/templar_armor_legs_recipe.json",
           "src/main/resources/data/fft_untold_story/recipe/templar_armor_legs_recipe.json"
         ]
-      }
+      },
+      "path": "~/templar"
     },
     {
       "name": "TemplarArmorBootsRecipe",
@@ -171,7 +182,8 @@
           "src/main/resources/data/fft_untold_story/advancement/recipes/templar_armor_boots_recipe.json",
           "src/main/resources/data/fft_untold_story/recipe/templar_armor_boots_recipe.json"
         ]
-      }
+      },
+      "path": "~/templar"
     },
     {
       "name": "CrossHeart",
@@ -188,7 +200,8 @@
           "src/main/resources/assets/fft_untold_story/items/cross_heart.json",
           "src/main/resources/assets/fft_untold_story/blockstates/cross_heart.json"
         ]
-      }
+      },
+      "path": "~/templar"
     },
     {
       "name": "CrossHeartStates",
@@ -200,7 +213,8 @@
         "files": [
           "src/main/resources/assets/fft_untold_story/models/block/cross_heart_states_blockstate_0.json"
         ]
-      }
+      },
+      "path": "~/templar"
     },
     {
       "name": "CrossHeartPriObnovlieniiTika",
@@ -230,7 +244,8 @@
         "files": [
           "src/main/java/net/saik/fftuntoldstory/procedures/CrossHeartPriObnovlieniiTikaProcedure.java"
         ]
-      }
+      },
+      "path": "~/templar"
     },
     {
       "name": "CrossHeartRecipe",
@@ -243,10 +258,295 @@
           "src/main/resources/data/fft_untold_story/advancement/recipes/cross_heart_recipe.json",
           "src/main/resources/data/fft_untold_story/recipe/cross_heart_recipe.json"
         ]
+      },
+      "path": "~/templar"
+    },
+    {
+      "name": "RaceChoiceUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "race_choice_ui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/saik/fftuntoldstory/world/inventory/RaceChoiceUIMenu.java",
+          "src/main/java/net/saik/fftuntoldstory/network/RaceChoiceUIButtonMessage.java",
+          "src/main/java/net/saik/fftuntoldstory/client/gui/RaceChoiceUIScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "IsChosenRace",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_chosen_race",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/saik/fftuntoldstory/procedures/IsChosenRaceProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "OptHuman",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opt_human",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/saik/fftuntoldstory/procedures/OptHumanProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "OptImp",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opt_imp",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/saik/fftuntoldstory/procedures/OptImpProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "OptBirdman",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opt_birdman",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/saik/fftuntoldstory/procedures/OptBirdmanProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "RecetRaceP",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recet_race_p",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/saik/fftuntoldstory/procedures/RecetRacePProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Resetrace",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resetrace",
+      "metadata": {
+        "files": [
+          "src/main/java/net/saik/fftuntoldstory/command/ResetraceCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Chooseracedev",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chooseracedev",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/saik/fftuntoldstory/procedures/ChooseracedevProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Chooserace",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chooserace",
+      "metadata": {
+        "files": [
+          "src/main/java/net/saik/fftuntoldstory/command/ChooseraceCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Racetick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "racetick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/saik/fftuntoldstory/procedures/RacetickProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ImpVillagers",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "imp_villagers",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/saik/fftuntoldstory/procedures/ImpVillagersProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "BirdmanRush",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "birdman_rush",
+      "metadata": {
+        "files": [
+          "src/main/java/net/saik/fftuntoldstory/network/BirdmanRushMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "BirdmanDash",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "birdman_dash",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/saik/fftuntoldstory/procedures/BirdmanDashProcedure.java"
+        ]
       }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "Human",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "Imp",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "Birdman",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    }
+  ],
   "sound_elements": [],
   "tag_elements": {
     "ITEMS:minecraft:head_armor": [
@@ -288,7 +588,12 @@
       "item_group.fft_untold_story.fft_untold_story": "FFT: Untold Story",
       "item.fft_untold_story.templar_sword": "Templar sword",
       "item.fft_untold_story.templar_shield": "Templar shield",
-      "item.fft_untold_story.cross_heart": "Cross center"
+      "item.fft_untold_story.cross_heart": "Cross center",
+      "gui.fft_untold_story.race_choice_ui.button_remain_human": "Remain Human",
+      "gui.fft_untold_story.race_choice_ui.button_become_imp": "Become Imp",
+      "gui.fft_untold_story.race_choice_ui.label_choose_your_race": "Choose your race",
+      "gui.fft_untold_story.race_choice_ui.button_become_birdman": "Become Bird-man",
+      "key.fft_untold_story.birdman_rush": "Birdman Rush"
     },
     "ru_ru": {
       "item.fft_untold_story.templar_armor_helmet": "Тамплиерский шлем",
@@ -298,11 +603,20 @@
       "item_group.fft_untold_story.fft_untold_story": "FFT: Untold Story",
       "item.fft_untold_story.templar_sword": "Тамплиерский меч",
       "item.fft_untold_story.templar_shield": "Тамплиерский щит",
-      "item.fft_untold_story.cross_heart": "Центр креста"
+      "item.fft_untold_story.cross_heart": "Центр креста",
+      "gui.fft_untold_story.race_choice_ui.button_remain_human": "Remain Human",
+      "gui.fft_untold_story.race_choice_ui.button_become_imp": "Become Imp",
+      "gui.fft_untold_story.race_choice_ui.label_choose_your_race": "Choose your race",
+      "gui.fft_untold_story.race_choice_ui.button_become_birdman": "Become Bird-man",
+      "key.fft_untold_story.birdman_rush": "Birdman Rush"
     }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/saik/fftuntoldstory/init/FftUntoldStoryModScreens.java",
+      "src/main/java/net/saik/fftuntoldstory/init/FftUntoldStoryModMenus.java",
+      "src/main/java/net/saik/fftuntoldstory/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/saik/fftuntoldstory/init/FftUntoldStoryModKeyMappings.java",
       "src/main/java/net/saik/fftuntoldstory/init/FftUntoldStoryModBrewingRecipes.java",
       "src/main/java/net/saik/fftuntoldstory/init/FftUntoldStoryModBlocks.java",
       "src/main/java/net/saik/fftuntoldstory/init/FftUntoldStoryModItems.java",
@@ -322,18 +636,24 @@
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/saik/fftuntoldstory/init/FftUntoldStoryModTabs.java",
       "src/main/java/net/saik/fftuntoldstory/network/PlayPlayerAnimationMessage.java",
+      "src/main/java/net/saik/fftuntoldstory/network/FftUntoldStoryModVariables.java",
       "src/main/java/net/saik/fftuntoldstory/mixin/ItemInHandRendererMixin.java",
       "src/main/resources/META-INF/accesstransformer.cfg"
     ]
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "templar",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "fft_untold_story",
     "modName": "FFT: Untold story",
-    "version": "0.1.7",
+    "version": "0.1.8",
     "author": "SaIK",
     "websiteURL": "https://mcreator.net",
     "license": "Not specified",

@@ -6,5 +6,10 @@
   "item_group.fft_untold_story.fft_untold_story": "FFT: Untold Story",
   "item.fft_untold_story.templar_sword": "Тамплиерский меч",
   "item.fft_untold_story.templar_shield": "Тамплиерский щит",
-  "item.fft_untold_story.cross_heart": "Центр креста"
+  "item.fft_untold_story.cross_heart": "Центр креста",
+  "gui.fft_untold_story.race_choice_ui.button_remain_human": "Remain Human",
+  "gui.fft_untold_story.race_choice_ui.button_become_imp": "Become Imp",
+  "gui.fft_untold_story.race_choice_ui.label_choose_your_race": "Choose your race",
+  "gui.fft_untold_story.race_choice_ui.button_become_birdman": "Become Bird-man",
+  "key.fft_untold_story.birdman_rush": "Birdman Rush"
 }

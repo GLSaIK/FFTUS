@@ -3,7 +3,9 @@ package net.saik.fftuntoldstory;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import net.saik.fftuntoldstory.network.FftUntoldStoryModVariables;
 import net.saik.fftuntoldstory.init.FftUntoldStoryModTabs;
+import net.saik.fftuntoldstory.init.FftUntoldStoryModMenus;
 import net.saik.fftuntoldstory.init.FftUntoldStoryModItems;
 import net.saik.fftuntoldstory.init.FftUntoldStoryModBlocks;
 
@@ -59,6 +61,8 @@ public class FftUntoldStoryMod {
 		FftUntoldStoryModBlocks.REGISTRY.register(modEventBus);
 		FftUntoldStoryModItems.REGISTRY.register(modEventBus);
 		FftUntoldStoryModTabs.REGISTRY.register(modEventBus);
+		FftUntoldStoryModVariables.ATTACHMENT_TYPES.register(modEventBus);
+		FftUntoldStoryModMenus.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}
